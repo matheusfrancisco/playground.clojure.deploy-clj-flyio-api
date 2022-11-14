@@ -1,6 +1,5 @@
 # flyctl launch added from .gitignore
 **/*.class
-**/*.jar
 **/*.swp
 **/.classpath
 **/.clj-kondo/.cache
@@ -25,6 +24,4 @@ derby.log
 dist
 example*db
 lib
-target
-target
 **/pom.xml.asc
