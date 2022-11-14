@@ -39,7 +39,7 @@
 
   :uberjar {:replace-deps {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
             :exec-fn hf.depstar/uberjar
-            :exec-args {:jar "server.jar"
+            :exec-args {:jar "service.jar"
                         :aot true
                         :main-class api.server}}
 
